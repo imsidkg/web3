@@ -1,0 +1,5 @@
+/home/imsidkg/projects/web3/rust-week-26/target/debug/deps/rust_week_26-3b3d6ae8b7d08a7d.d: src/main.rs
+
+/home/imsidkg/projects/web3/rust-week-26/target/debug/deps/librust_week_26-3b3d6ae8b7d08a7d.rmeta: src/main.rs
+
+src/main.rs:
