@@ -1,8 +1,13 @@
+use rect::Rect;
+pub mod rect;
+
+
 fn main() {
-    let mut str = String::from("Siddharth");
-    let ref1 = &mut str;
-    ref1.push_str("gope");
-    let ref2 = &str;
-    print!("{}", str);
-    print!("{}", ref2)
+   let r = Rect {
+    width:10.0,
+    height:2.0
+   };
+
+//    print!("{} , {}" , r.width , r.width);
+   print!("{}" , r.area())
 }
