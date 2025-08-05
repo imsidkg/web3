@@ -1,1 +1,1 @@
-/home/imsidkg/projects/web3/rust-week-26/target/debug/rust-week-26: /home/imsidkg/projects/web3/rust-week-26/src/main.rs /home/imsidkg/projects/web3/rust-week-26/src/rect.rs
+/home/imsidkg/projects/web3/rust-week-26/target/debug/rust-week-26: /home/imsidkg/projects/web3/rust-week-26/src/main.rs /home/imsidkg/projects/web3/rust-week-26/src/max_of_three.rs /home/imsidkg/projects/web3/rust-week-26/src/odd_even.rs /home/imsidkg/projects/web3/rust-week-26/src/sum_of_nums.rs

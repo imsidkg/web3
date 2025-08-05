@@ -1,13 +1,12 @@
-use rect::Rect;
-pub mod rect;
+use crate::{max_of_three::max_of_three, sum_of_nums::sum_of_nums};
 
-
+mod odd_even;
+mod max_of_three;
+mod sum_of_nums;
 fn main() {
-   let r = Rect {
-    width:10.0,
-    height:2.0
-   };
+    // let ans = odd_even::odd_even(31);
+    // let ans = max_of_three(10, 20, 30);
+    let ans = sum_of_nums(10);
+    println!("{}", ans)
 
-//    print!("{} , {}" , r.width , r.width);
-   print!("{}" , r.area())
 }
