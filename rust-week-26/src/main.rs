@@ -1,22 +1,24 @@
-struct Rect {
-    width: u32,
-    height: u32,
+struct Rect<T> {
+    width: T,
+    height: T,
 }
 
-impl Rect {
-    fn area(&self) -> u32 {
+impl<T: std::ops::Mul<Output = T> + Copy> Rect<T> {
+    fn area(&self) -> T {
         self.width * self.height
     }
 }
 
 fn main() {
-
     let r = Rect {
-        width : 10 ,
-        height: 10
+        width: 10,
+        height: 10,
     };
 
-    print!("{}"  ,r.area())
+    let r1 = Rect {
+        width: 0.2,
+        height: 10.0,
+    };
+    print!("{}", r.area());
+    println!("{}", r1.area())
 }
-
-
