@@ -1,7 +1,22 @@
-fn main() {
-    println!("{}" , sum(1,2))
+struct Rect {
+    width: u32,
+    height: u32,
 }
 
-fn sum<T: std::ops::Add<Output = T>>(a: T, b: T) -> T {
-    a + b
+impl Rect {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
 }
+
+fn main() {
+
+    let r = Rect {
+        width : 10 ,
+        height: 10
+    };
+
+    print!("{}"  ,r.area())
+}
+
+
